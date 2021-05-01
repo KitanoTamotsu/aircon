@@ -42,7 +42,7 @@ NatureRemoのAPIを使ってエアコンを操作する
   またNatureRemoでは家電ごとにアプライアンスIDが割り当てられますが、
 　今回対象のエアコンのIDもexport禁止変数としています。
 　ご自身の環境のNatureRemoで情報を取得して設定してください。
-　GET "https://api.nature.global/1/appliances"でアプライアンス（家電）情報が確認できます
+　GET "https://api.nature.global/1/appliances" でアプライアンス（家電）情報が確認できます
 　もち、トークンは必要です
 
 3.スクリプトフィルターとキーワードのハイブリッド
