@@ -68,9 +68,9 @@
 　キーワード『aircon』で起動
 <br>　例）
 <br>　　aircon（パラメータなし）　室温・湿度の表示
-<br>　　aircon　off　      　　 電源オフ
-<br>　　aircon　dry　          除湿オン
-<br>　　aircon　数字　          冷房オン（温度設定）
+<br>　　aircon　off　　電源オフ
+<br>　　aircon　dry　　除湿オン
+<br>　　aircon　数字　　冷房オン（温度設定）
 <br>
 <br>
 [トップページに戻る](https://kitanotamotsu.github.io/)
