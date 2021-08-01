@@ -1,5 +1,8 @@
 ## 　　Lesson22.　スクリプトフィルターとキーワードのハイブリッドにする 
 #### 開発メモ
+ワークフロー
+<br><img width="600" src="https://user-images.githubusercontent.com/40127279/127756738-3b43bea3-7326-4bd3-854b-d02487b4e58b.png">
+
 ### 1.NatureRemoのAPI
 　突然ですが、URLでNatureRemoをコントロールすることができます
 <br>　Tokenの取得方法やAPIの詳細はインターネットで調べてください
@@ -29,8 +32,13 @@
 <br>　最適なのかわかっていませんが、いったんShowAlfredオブジェクトを利用して、
 <br>　ariconを再帰するように設定しています
 <br>　引数なしでエンターキーを押したときに途切れないようするためです
+<br>
+<br>　ShowAlfredオブジェクト
+<br>　<img width="435" src="https://user-images.githubusercontent.com/40127279/127756841-633e02e0-9603-44e7-afc5-6c62966a2a0c.png">
+
 ### 4.入力パラメータによって処理を分岐させる（conditionalユーティリティ）
 　conditionalユーティリティを開いてみてください
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127756861-3cdd3cb6-ebb8-4223-9526-a015a9f1699c.png">
 <br>　1行目の条件はパラメータがない状態を意味します（『is equal to』と『（空欄）』）
 <br>　なお『then』のあとのテキスト（『再表示』）はalfredワークフローをわかりやすくする
 <br>　ための表示用文字列です
@@ -44,10 +52,15 @@
 <br>　ちょっと遅れている時間でしたので、たぶんグリニッジ時刻なのかな
 <br>　ということでJST（日本時刻）に変換しましょう
 <br>　興味があったらみてください。9時間補正の簡単な変換機能があるのですね
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127756805-bc839492-3d72-4911-b7cd-05e1bef87aae.png">
+
 ### 6.エアコン操作
 　3つのRunScriptでそれぞれエアコンの操作をしていますが、基本APIをcURLで
 <br>　呼んでいるだけです
 <br>　NatureRemoのAPIとにらめっこをして、カスタマイズしてみてください　
+<br>　
+<br>　冷房のRunScript
+<br>　 <img width="600"  src="https://user-images.githubusercontent.com/40127279/127756888-8c897cfd-2766-4357-986b-a39b8bfa01e2.png">
 #### 背景
 　はやくも夏日の声を聞くようになったので、エアコン操作をつくってみました
 <br>　Lesson10と18でTVのリモコンを実装しているので、操作部分は簡単でした
