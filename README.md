@@ -1,4 +1,3 @@
-## 　　Lesson22.　スクリプトフィルターとキーワードのハイブリッドにする 
 #### 開発メモ
 ワークフロー
 <br><img width="600" src="https://user-images.githubusercontent.com/40127279/127756738-3b43bea3-7326-4bd3-854b-d02487b4e58b.png">
